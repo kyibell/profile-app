@@ -43,6 +43,7 @@ export default function App() {
       margin="0 auto"
     >
       <Heading level={1}>My Profile</Heading>
+      <Heading level={2}>Kyi Bell - kb0694</Heading>
       <Divider />
       <Grid
         margin="3rem 0"
@@ -64,7 +65,7 @@ export default function App() {
             className="box"
           >
             <View>
-              <Heading level="3">{userprofile.email}</Heading>
+              <Heading level={3}>{userprofile.email}</Heading>
             </View>
           </Flex>
         ))}
